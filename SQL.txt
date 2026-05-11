@@ -1,0 +1,10 @@
+Create DATABASE college;
+USE college;
+CREATE TABLE students();
+INSERT INTO students(id,name,age,course) VALUES(1,himanshu,21,BCA);
+select * from students;
+select * from students where course='BCA';
+select * from students where age>20 AND course='BCA';
+update students set age=30 where id=2;
+update students set age=25;
+delete from students where id=1;
